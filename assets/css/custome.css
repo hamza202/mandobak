@@ -45,3 +45,28 @@
 .m-widget3 .m-widget3__item{
     padding-bottom: 7px;
 }
+.m-login.m-login--1 .m-login__wrapper .m-login__logo{
+    margin: 0 auto 3rem auto;
+    max-width: 200px;
+}
+.btn-theme{
+    color: #fff;
+    background-color: #743959;
+    border-color: #743959;
+}
+.btn-theme:hover{
+    color: #fff;
+    background-color: #9b437c;
+    border-color: #9b437c;
+}
+.btn-outline-theme {
+    color: #743959;
+    background-color: transparent;
+    background-image: none;
+    border-color: #743959;
+}
+.btn-outline-theme:hover{
+    border-color: #743959;
+    background: #743959;
+    color: #fff;
+}

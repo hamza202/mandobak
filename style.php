@@ -19,4 +19,4 @@
 <link rel="stylesheet" href="assets/css/custome.css">
 
 <!--end::Global Theme Styles -->
-<link rel="shortcut icon" href="assets/demo/media/img/logo/PayzatyIcon.png" />
+<link rel="shortcut icon" href="assets/dark-logo.png" />
