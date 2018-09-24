@@ -43,7 +43,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title text-capitalize ">Add a new company account </h3>
+                        <h3 class="m-subheader__title text-capitalize ">Admin change password </h3>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                                 <div class="m-portlet__head-caption">
                                     <div class="m-portlet__head-title">
                                         <h3 class="m-portlet__head-text">
-                                            Add Account
+                                            change password
                                         </h3>
                                     </div>
                                 </div>
@@ -79,63 +79,25 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row border-bottom pb-5">
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group">
-                                                <label for="cname">Company Name</label>
-                                                <input type="text" required class="form-control m-input m-input--air" id="cname"
-                                                       name="cname" aria-describedby="cname"
-                                                       placeholder="Enter Company Name">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group">
-                                                <label for="cPNumber">Phone Number</label>
-                                                <input type="text" class="form-control m-input m-input--air"
-                                                       id="cPNumber" name="cPNumber" aria-describedby="cPNumber"
-                                                       placeholder="Enter Phone Number">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group mt-3">
-                                                <label for="cEmail">Email address</label>
-                                                <input type="email" class="form-control m-input m-input--air"
-                                                       id="cEmail" name="cEmail" aria-describedby="cEmail"
-                                                       placeholder="Enter email">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group m-form__group mt-3">
-                                                <label for="exampleSelect1">Company Type</label>
-                                                <select required class="form-control m-input m-input--air" id="exampleSelect1">
-                                                    <option value=""></option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="row">
                                         <div class="col-12">
                                             <div class="form-group m-form__group mt-3">
                                                 <label for="cOPass">Old Password</label>
-                                                <input type="password" class="form-control m-input m-input--air"
+                                                <input required type="password" class="form-control m-input m-input--air"
                                                        id="cOPass" name="cOPass" placeholder="Password">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mt-3">
                                                 <label for="cNPass">New Password</label>
-                                                <input type="password" class="form-control m-input m-input--air"
+                                                <input required type="password" class="form-control m-input m-input--air"
                                                        id="cNPass" name="cNPass" placeholder="New Password">
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="form-group m-form__group mt-3">
                                                 <label for="cCpass">Confirm password</label>
-                                                <input type="password" class="form-control m-input m-input--air"
+                                                <input required type="password" class="form-control m-input m-input--air"
                                                        id="cCpass" name="cCpass" placeholder="Confirm password">
                                             </div>
                                         </div>
@@ -145,8 +107,7 @@
 
                                     <div class="m-portlet__foot m-portlet__foot--fit mt-3">
                                         <div class="m-form__actions">
-                                            <button type="submit" class="btn btn-accent">Submit</button>
-                                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                                            <button type="submit" class="btn btn-theme">change</button>
                                         </div>
                                     </div>
                                 </form>
