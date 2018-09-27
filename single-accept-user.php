@@ -86,7 +86,7 @@
                                                 <div class="m-timeline-3__item m-timeline-3__item--warning">
                                                     <div class="m-timeline-3__item-desc">
                                                  <span class="m-timeline-3__item-user-name">
-                                                    <span class="m-link color-theme-1 m-timeline-3__item-link">
+                                                    <span class="m-link m-link--metal m-timeline-3__item-link">
                                                         Phone:
                                                     </span>
                                                 </span>
@@ -99,72 +99,90 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="m-timeline-3__item m-timeline-3__item--brand">
-                                            <div class="m-timeline-3__item-desc">
-																<span class="m-timeline-3__item-text">
-																	Lorem ipsum dolor sit amit
-																</span><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--brand">
+                                                    <div class="m-timeline-3__item-desc">
                                                 <span class="m-timeline-3__item-user-name">
-                                                    <a href="#" class="m-link m-link--metal m-timeline-3__item-link">
-                                                        By Sean
-                                                    </a>
+                                                    <span class="m-link m-link--metal m-timeline-3__item-link">
+                                                        Email:
+                                                    </span>
                                                 </span>
+                                                        <br>
+                                                        <span class="m-timeline-3__item-text">
+                                                    info@hotmail.com
+                                                </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--success">
+                                                    <div class="m-timeline-3__item-desc">
+                                                    <span class="m-timeline-3__item-user-name">
+                                                        <span
+                                                                class="m-link m-link--metal m-timeline-3__item-link">
+                                                            Car type
+                                                        </span>
+                                                    </span>
+                                                        <br>
+                                                        <span class="m-timeline-3__item-text">
+                                                        mercedes
+                                                    </span>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
-                                        <div class="m-timeline-3__item m-timeline-3__item--success">
-                                            <span class="m-timeline-3__item-time">12:00</span>
-                                            <div class="m-timeline-3__item-desc">
-																<span class="m-timeline-3__item-text">
-																	Lorem ipsum dolor
-																</span><br>
-                                                <span class="m-timeline-3__item-user-name">
-																	<a href="#"
-                                                                       class="m-link m-link--metal m-timeline-3__item-link">
-																		By James
-																	</a>
-																</span>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--danger">
+                                                    <div class="m-timeline-3__item-desc">
+                                                        <span class="m-timeline-3__item-text d-block pt-2">
+                                                            Personal picture
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img class="img-fluid" src="assets/pic.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--metal">
+                                                    <div class="m-timeline-3__item-desc">
+                                                        <span class="m-timeline-3__item-text d-block pt-2">
+                                                            Identity picture
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img class="img-fluid" src="assets/pic.jpg" alt="">
                                             </div>
                                         </div>
-                                        <div class="m-timeline-3__item m-timeline-3__item--danger">
-                                            <span class="m-timeline-3__item-time">14:00</span>
-                                            <div class="m-timeline-3__item-desc">
-																<span class="m-timeline-3__item-text">
-																	Lorem ipsum dolor sit amit,consectetur eiusmdd
-																</span><br>
-                                                <span class="m-timeline-3__item-user-name">
-																	<a href="#"
-                                                                       class="m-link m-link--metal m-timeline-3__item-link">
-																		By Derrick
-																	</a>
-																</span>
+                                        <div class="row mt-4">
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--danger">
+                                                    <div class="m-timeline-3__item-desc">
+                                                        <span class="m-timeline-3__item-text d-block pt-2">
+                                                            Driving License Pic
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img class="img-fluid" src="assets/pic.jpg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="m-timeline-3__item m-timeline-3__item--metal">
+                                                    <div class="m-timeline-3__item-desc">
+                                                        <span class="m-timeline-3__item-text d-block pt-2">
+                                                            Vehicle Registration Pic
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <img class="img-fluid" src="assets/pic.jpg" alt="">
                                             </div>
                                         </div>
-                                        <div class="m-timeline-3__item m-timeline-3__item--info">
-                                            <span class="m-timeline-3__item-time">15:00</span>
-                                            <div class="m-timeline-3__item-desc">
-																<span class="m-timeline-3__item-text">
-																	Lorem ipsum dolor sit amit,consectetur
-																</span><br>
-                                                <span class="m-timeline-3__item-user-name">
-																	<a href="#"
-                                                                       class="m-link m-link--metal m-timeline-3__item-link">
-																		By Iman
-																	</a>
-																</span>
-                                            </div>
-                                        </div>
-                                        <div class="m-timeline-3__item m-timeline-3__item--brand">
-                                            <span class="m-timeline-3__item-time">17:00</span>
-                                            <div class="m-timeline-3__item-desc">
-																<span class="m-timeline-3__item-text">
-																	Lorem ipsum dolor sit consectetur eiusmdd tempor
-																</span><br>
-                                                <span class="m-timeline-3__item-user-name">
-																	<a href="#"
-                                                                       class="m-link m-link--metal m-timeline-3__item-link">
-																		By Aziko
-																	</a>
-																</span>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <form action="#">
+                                                    <button type="submit" class="btn btn-success">Accept</button>
+                                                    <button type="submit" class="btn btn-danger">reject</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +198,6 @@
     </div>
 
     <!-- end:: Body -->
-
     <!-- begin::Footer -->
     <?php include "footer.php" ?>
     <!-- end::Footer -->
