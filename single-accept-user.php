@@ -179,7 +179,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12">
-                                                <form action="#">
+                                                <form action="#" class="mt-4">
                                                     <button type="submit" class="btn btn-success">Accept</button>
                                                     <button type="submit" class="btn btn-danger">reject</button>
                                                 </form>
