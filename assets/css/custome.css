@@ -70,3 +70,10 @@
     background: #743959;
     color: #fff;
 }
+.delegate-information.m-timeline-3 .m-timeline-3__item:before{
+    height: 80%;
+    left: 0;
+}
+.delegate-information.m-timeline-3 .m-timeline-3__item .m-timeline-3__item-desc{
+    padding-left: 1rem;
+}

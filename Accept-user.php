@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>ManDoPik | Accounts</title>
+    <title>ManDoPik | Accept User</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -43,7 +43,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title text-capitalize ">all corporate accounts</h3>
+                        <h3 class="m-subheader__title text-capitalize ">Accept / Refusal Users</h3>
                     </div>
                 </div>
             </div>
@@ -56,18 +56,9 @@
                                 <div class="m-portlet__head-caption">
                                     <div class="m-portlet__head-title">
                                         <h3 class="m-portlet__head-text">
-                                            All Accounts
+                                            Accept / Refusal
                                         </h3>
                                     </div>
-                                </div>
-                                <div class="ml-auto pt-3">
-                                    <a href="add-account.php"
-                                       class="btn btn-outline-success m-btn m-btn--custom m-btn--icon m-btn--pill m-btn--air">
-                                           <span>
-                                               <i class="la la-plus"></i>
-                                               <span>Add New Account</span>
-                                           </span>
-                                    </a>
                                 </div>
                             </div>
                             <div class="m-portlet__body">
@@ -76,10 +67,9 @@
                                     <thead>
                                     <tr>
                                         <th>ID</th>
-                                        <th>Company name</th>
+                                        <th>Name</th>
                                         <th>Phone</th>
                                         <th>Email</th>
-                                        <th>Type</th>
                                         <th>Action</th>
                                     </tr>
                                     </thead>
@@ -89,7 +79,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>2</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -97,7 +86,34 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Name</td>
+                                        <td>0123456789</td>
+                                        <td>info@gmail.cpm</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Name</td>
+                                        <td>0123456789</td>
+                                        <td>info@gmail.cpm</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
                                         <td>1</td>
+                                        <td>Name</td>
+                                        <td>0123456789</td>
+                                        <td>info@gmail.cpm</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Name</td>
+                                        <td>0123456789</td>
+                                        <td>info@gmail.cpm</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -113,7 +129,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>1</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -121,7 +136,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>2</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -129,7 +143,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>1</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -137,7 +150,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>3</td>
                                         <td></td>
                                     </tr>
                                     <tr>
@@ -145,39 +157,6 @@
                                         <td>Name</td>
                                         <td>0123456789</td>
                                         <td>info@gmail.cpm</td>
-                                        <td>1</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Name</td>
-                                        <td>0123456789</td>
-                                        <td>info@gmail.cpm</td>
-                                        <td>2</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Name</td>
-                                        <td>0123456789</td>
-                                        <td>info@gmail.cpm</td>
-                                        <td>1</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Name</td>
-                                        <td>0123456789</td>
-                                        <td>info@gmail.cpm</td>
-                                        <td>3</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>Name</td>
-                                        <td>0123456789</td>
-                                        <td>info@gmail.cpm</td>
-                                        <td>1</td>
                                         <td></td>
                                     </tr>
                                     </tbody>
@@ -229,33 +208,15 @@
                     responsive: true,
                     columnDefs: [
                         {
-                            targets: 5,
+                            targets: 4,
                             title: 'Actions',
                             orderable: false,
                             render: function (data, type, full, meta) {
                                 return `
-                            <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="Edit">
-                              <i class="la la-edit"></i>
-                            </a>
-                            <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
+                            <a href="single-accept-user.php" class="m-portlet__nav-link btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill" title="View">
                               <i class="far fa-eye"></i>
                             </a>
-                            <button type="button" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill m_sweetalert_demo_9"> <i class="far fa-stop-circle"></i></button>`
-                            },
-                        },
-                        {
-                            targets: 4,
-                            render: function (data, type, full, meta) {
-                                var status = {
-                                    1: {'title': 'Shop & Restaurant ', 'state': 'danger'},
-                                    2: {'title': 'Taxi', 'state': 'primary'},
-                                    3: {'title': 'Transportation', 'state': 'accent'},
-                                };
-                                if (typeof status[data] === 'undefined') {
-                                    return data;
-                                }
-                                return '<span class="m-badge m-badge--' + status[data].state + ' m-badge--dot"></span>&nbsp;' +
-                                    '<span class="m--font-bold m--font-' + status[data].state + '">' + status[data].title + '</span>';
+                            `
                             },
                         },
                     ],
